@@ -30,7 +30,7 @@ public class HelloAppTest {
     public void testWrongArgument() {
         PowerMockito.mockStatic(System.class);
 
-        String[] args = {"bicycle"};
+        String[] args = {"1"};
         HelloApp.main(args);
 
         // Did the program exit with the expected error code?
